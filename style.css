@@ -242,6 +242,7 @@ pre a:hover {
 @media (max-width: 768px) {
   #container {
     flex-direction: column;
+    overflow-x: hidden;
   }
 
   #sidebar {
@@ -249,30 +250,26 @@ pre a:hover {
     height: auto;
     position: relative;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    padding: 1rem;
-    text-align: left;
+    padding: 0.5rem;
+    gap: 10px;
+    text-align: center;
+    flex-wrap: wrap;
   }
 
   #sidebar img {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     margin: 0;
   }
-  #asd
-  {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+
   #name {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
   }
 
   #title {
-    font-size: 0.8rem;
+    font-size: 0.75rem;
   }
 
   #main-content {
@@ -281,44 +278,58 @@ pre a:hover {
     height: auto;
     display: flex;
     flex-direction: column;
-    margin-top: 25px;
+    margin-top: 10px;
   }
 
   #options-bar {
     overflow-x: auto;
     justify-content: flex-start;
-    padding: 1rem;
-    gap: 10px;
-    border-bottom: none;
-    padding: 20px;
+    padding: 0.5rem;
+    gap: 5px;
+    font-size: 0.8rem;
   }
-  .option
-  {
+
+  .option {
+    padding: 0.4rem 0.7rem;
+    font-size: 0.85rem;
     border-radius: 3px;
   }
+
   #content-area {
-    padding-top: 5rem;
+    padding: 1rem 0.5rem;
     min-height: 80vh;
-    padding-bottom: 2rem;
+    font-size: 0.9rem;
   }
 
   .projects-grid {
     grid-template-columns: 1fr;
   }
 
-  .option {
-  flex: 0 0 auto;
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
-  cursor: pointer;
-  font-weight: 600;
-  font-size: medium;
-  color: var(--color-text);
-  transition: background 0.3s ease;
-  white-space: nowrap;
-}
-pre
-{
-  font-size: medium;
-}
+  .project-card {
+    padding: 0.8rem;
+    font-size: 0.85rem;
+  }
+
+  .project-card h3 {
+    font-size: 1rem;
+  }
+
+  .project-card button {
+    font-size: 0.75rem;
+    padding: 4px 8px;
+  }
+
+  pre {
+    font-size: 0.85rem;
+    word-wrap: break-word;
+    overflow-x: auto;
+  }
+
+  .y {
+    gap: 15px;
+  }
+
+  span, b {
+    font-size: 0.85rem;
+  }
 }
