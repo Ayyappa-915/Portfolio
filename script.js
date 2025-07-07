@@ -29,6 +29,21 @@
     projects: `
       <h2>Projects</h2><br>
       <div class="projects-grid" role="list">
+ <article class="project-card" role="listitem" tabindex="0" aria-label="Project Task Manager App">
+  <div class="x">
+    <h3>User Authentication System</h3>
+    <p>A full-stack User Authentication System built with Node.js, Express, and MongoDB, featuring secure user registration, login, email verification, password reset, and session management. The frontend is designed using HTML and CSS.</p>
+    <br>
+    <div class="y">
+      <a href="https://user-authentication-system-1-jlq3.onrender.com">
+        <button>View Project</button>
+      </a>
+      <a href="https://github.com/Ayyappa-915/User-Authentication-System">
+        <button>View SourceCode</button>
+      </a>
+    </div>
+</article>
+      
         <article class="project-card" role="listitem" tabindex="0" aria-label="Project Task Manager App">
           <div class="x">
           <h3>InstituteHub Web Application</h3>
@@ -74,6 +89,29 @@
           </a>
           </div>
         </article>
+
+<article class="project-card" role="listitem" tabindex="0" aria-label="Age Calculator Web Application">
+  <div class="x">
+    <h3>Age Calculator Web Application</h3>
+    <p>A simple and interactive web application that calculates a user's exact age in years, months, and days based on their date of birth. Built using HTML, CSS, and JavaScript with a clean and user-friendly interface.</p>
+    <br>
+    <div class="y">
+      <a href="https://age-calculator-3umx.onrender.com">
+        <button>View Project</button>
+      </a>
+      <a href="https://github.com/Ayyappa-915/Age-Calculator/tree/main/Age-Calculator">
+        <button>View SourceCode</button>
+      </a>
+    </div>
+</article>
+
+
+
+
+        
+
+
+        
         <article class="project-card" role="listitem" tabindex="0" aria-label="Project Task Manager App">
           <div class="x">
           <h3>College Application</h3>
