@@ -3,21 +3,21 @@
   const contentTemplates = {
     home: `
     <h2>Welcome to My Portfolio! 🚀</h2><br>
-        <p>Hello! I’m <span><b><i>Ayyappa Gandikota</i></b></span>, a passionate <b><i>Full Stack Developer</i></b> eager to create scalable and efficient web applications. I specialize in MongoDB, Express.js and Node.js, building dynamic and interactive websites that enhance user experiences.</p>
+        <p>Hello! I’m <span><b><i>Ayyappa Gandikota</i></b></span>, a passionate <b><i>MERN Stack Developer</i></b> eager to create scalable and efficient web applications. I specialize in React.js, MongoDB, Express.js and Node.js, building dynamic and interactive websites that enhance user experiences.</p>
         <br>
         <p>I am always excited to take on new challenges and opportunities. Let’s connect and build something amazing together! 🚀</p>
 
     `,
     about: `
       <h2>About Me</h2><br>
-      <p>I am <b><i>Ayyappa Gandikota</i></b>, a passionate <span><b><i>Full Stack Web Developer </i></b></span>with a strong foundation in HTML, CSS, JavaScript, Node.js, Express.js and MongoDB. I recently graduated from <b><i>St. Ann's College of Engineering and Technology</i></b> with a degree in <span><b><i>Computer Science and Engineering</i></b></span>.</p><br>
+      <p>I am <b><i>Ayyappa Gandikota</i></b>, a passionate <span><b><i>MERN Stack Web Developer </i></b></span>with a strong foundation in HTML, CSS, JavaScript,React.js, Node.js, Express.js and MongoDB. I recently graduated from <b><i>St. Ann's College of Engineering and Technology</i></b> with a degree in <span><b><i>Computer Science and Engineering</i></b></span>.</p><br>
         <p>As a fresher, I am highly motivated to build scalable and efficient web applications. I have worked on multiple projects that demonstrate my skills in frontend and backend development, database management, and API integration.</p>
     `,
     skills: `
       <h2>Skills</h2><br>
       <pre>
     Programming Languages   : <span>Python</span>
-    Front-End-Technologies  : <span>HTML,CSS,JavaScript</span>
+    Front-End-Technologies  : <span>HTML,CSS,JavaScript,React.js</span>
     Frameworks              : <span>Node js,Express js</span>
     DataBase                : <span>Mongodb Atlas</span>
     Version Control         : <span>GitHub</span>
@@ -29,6 +29,40 @@
     projects: `
       <h2>Projects</h2><br>
       <div class="projects-grid" role="list">
+
+<article class="project-card" role="listitem" tabindex="0" aria-label="Project Task Manager App">
+  <div class="x">
+    <h3>College Event Management System</h3>
+    <p>College Event Management System is a MERN stack project built withReact.js, Node.js, Express, and MongoDB, featuring secure user registration, login and session management.</p>
+    <br>
+    <div class="y">
+      <a href="https://college-event-application-313p.vercel.app">
+        <button>View Project</button>
+      </a>
+      <a href="https://github.com/Ayyappa-915/College-Event-Application">
+        <button>View SourceCode</button>
+      </a>
+    </div>
+</article>
+
+
+<article class="project-card" role="listitem" tabindex="0" aria-label="Project Task Manager App">
+  <div class="x">
+    <h3>S-MART Application</h3>
+    <p> Built aresponsive frontend application using React, focusing on clean UI design and smooth user interactions. Developedreusablecomponentsandmanagedstateefficientlytoensurescalableandmaintainablecode
+structure.</p>
+    <br>
+    <div class="y">
+      <a href="https://s-mart-application.vercel.app/products">
+        <button>View Project</button>
+      </a>
+      <a href="https://github.com/Ayyappa-915/S-MART-Application">
+        <button>View SourceCode</button>
+      </a>
+    </div>
+</article>
+
+      
  <article class="project-card" role="listitem" tabindex="0" aria-label="Project Task Manager App">
   <div class="x">
     <h3>User Authentication System</h3>
